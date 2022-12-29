@@ -1,0 +1,84 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.body{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid #0000; */
+    border-radius: 15px;
+    border-width: 10px;
+    width: fit-content;
+    background-color:rgb(0, 0, 0);
+    padding: 10px 0px;
+    box-shadow: 8px 8px 8px 8px #0e4c6d;
+}
+
+.button, .design, .red-des, .eq{
+    width: 60px;
+    height: 60px;
+    margin: 2px 0px;
+    border: 3px solid black;
+    border-radius: 10pc;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.button{
+    background-color: black;
+    color: blue;
+}
+
+.red-des{
+    background-color: black;
+    color: red;
+}
+
+.design{
+    background-color: black;
+    color: blue;
+    font-size: large;
+}
+
+.eq{
+    background-color: black;
+    color:rgba(255, 255, 0, 0.829);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.input{
+    width: 210px;
+    height: 50px;
+    padding: 0px 5px;
+    margin: 10px 0px;
+    border: 3px solid #ffffff69;
+    border-radius: 12px;
+    font-size: large;
+    font-weight: bold;
+    background-color:black;
+    color: white;
+    text-align: right;
+    
+}
+.display{
+    display: block;
+}
+.science{
+    display: none;
+    background-color: #00000000;   
+    height: fit-content;
+}
+.menu{
+    display: block;
+}
